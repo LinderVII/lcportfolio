@@ -1,0 +1,122 @@
+.skillsWrapper, .homeWrapper, .projectsSectionWrapper, .contactWrapper, .footerInner {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+.seperator {
+    border:1px solid rgba(40,40,40,0.2);
+    width:800px;
+    margin:40px auto;
+}
+
+/* HOME SECTION */
+.home {
+    background-image: url("../bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    width:300px;
+    padding-top:40px;
+}
+
+.navigation {
+    float:right;
+    padding-top:60px;
+    margin-right:10px;
+}
+
+.navigation a {
+    padding:12px;
+    color:black;
+    font-size:24px;
+    text-decoration:none;
+}
+
+.introduction {
+    padding: 60px 0 90px 0;
+    font-size:17px;
+}
+
+.websiteBtn {
+    padding: 10px;
+    background-color: #1874dd;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.btnWrapper {
+    margin-top:30px;
+}
+
+
+/* SKILLS SECTION */
+.skillSector {
+    display: inline-block;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.skillSector h4 {
+    margin:0;
+    font-size:18px;
+}
+
+.skillSector div {
+    display: inline-block;
+    width:120px;
+    margin-right: 5px;
+}
+
+.skillSector div img {
+    width: 120px;
+}
+
+.skillSectorWrapper {
+    text-align:center;
+}
+
+/* PROJECT SECTION */
+
+.projectsWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    width: 300px;
+    display:inline-block;
+}
+.project img {
+    width: 300px;
+    max-height:500px;
+}
+.project a {
+    color:black;
+    text-decoration:none;
+}
+
+/* CONTACT SECTION */
+
+.links {
+    margin-top:20px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color:rgb(240, 240, 240);   
+    margin-top:30px;
+}
+
+.footerInner {
+    padding: 20px 0;
+}
