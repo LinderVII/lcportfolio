@@ -16,15 +16,16 @@ class Projects extends Component {
                         </a>
                     </div>
                     <div className="project">
-                        <a href="/epsilon">
+                        <a href="/lcstart">
                             <img src="/lcstart.png" alt="LCStart" />
                             <b>LCStart</b><br />
                             1 user<br />
-                            Personal Start-page for me.
+                            Personal Start-page for me. <br />
+                            No live demo avaliable
                         </a>
                     </div>
                     <div className="project">
-                        <a href="/epsilon">
+                        <a href="/memeories">
                             <img src="/memeories.png" alt="Memeories" />
                             <b>Memeories</b><br />
                             WIP<br />

@@ -48,7 +48,7 @@ class App extends Component {
                 </section>
                 <div className="footer">
                     <div className="footerInner">
-                        Website created by Ludwig Linder, 2018.
+                        Website created by Ludwig Linder, 2018. ludwigclinder@gmail.com
                     </div>
                 </div>
             </div>

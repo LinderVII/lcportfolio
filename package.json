@@ -2,6 +2,7 @@
   "name": "lcportfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://localhost:3030/main",
   "dependencies": {
     "jquery": "^3.3.1",
     "react": "^16.4.0",
