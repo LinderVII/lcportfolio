@@ -7,15 +7,15 @@ class Skills extends Component {
             <div className="skillsWrapper">
                 <h2>Skills</h2>
                 <p>
-                    While picking up new libraries, libraries or software is not an issue, these are the ones i use actively.
+                    While picking up new libraries, languages or software is not an issue, these are the ones i use actively.
                 </p>
                 <div className="skillSectorWrapper">
-                    <SkillSector name="Front-end" skills={
+                    <SkillSector name="Frontend" skills={
                         [
                             ["Javascript", "/js.png"],
                             ["ReactJS", "/react.png"]
                         ]} />
-                    <SkillSector name="Back-end" skills={
+                    <SkillSector name="Backend" skills={
                         [
                             ["PHP", "/php.png"],
                             ["NodeJS", "/node.png"]
