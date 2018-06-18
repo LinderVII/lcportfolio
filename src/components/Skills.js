@@ -10,12 +10,12 @@ class Skills extends Component {
                     While picking up new libraries, languages or software is not an issue, these are the ones i use actively.
                 </p>
                 <div className="skillSectorWrapper">
-                    <SkillSector name="Frontend" skills={
+                    <SkillSector name="Web Client" skills={
                         [
                             ["Javascript", "/js.png"],
                             ["ReactJS", "/react.png"]
                         ]} />
-                    <SkillSector name="Backend" skills={
+                    <SkillSector name="Web Server" skills={
                         [
                             ["PHP", "/php.png"],
                             ["NodeJS", "/node.png"]

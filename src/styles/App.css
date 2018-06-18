@@ -88,7 +88,7 @@ section h2 {
 
 .projectsWrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .project {
@@ -99,9 +99,21 @@ section h2 {
     width: 300px;
     max-height:500px;
 }
+.smallProjects {
+    margin-top:60px;
+}
+.smallProject {
+    width: 300px;
+    display: inline-block;
+    font-size:13px;
+    vertical-align:top;
+}
+.smallProject img {
+    width: 150px;
+}
 .project a {
-    color:black;
-    text-decoration:none;
+    color: black;
+    text-decoration: none;
 }
 
 /* CONTACT SECTION */
