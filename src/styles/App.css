@@ -1,6 +1,19 @@
-.skillsWrapper, .homeWrapper, .projectsSectionWrapper, .contactWrapper, .footerInner {
-    width: 1000px;
-    margin: 0 auto;
+@media (min-width: 710px) {
+    .skillsWrapper, .homeWrapper, .projectsSectionWrapper, .contactWrapper, .footerInner {
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 710px) {
+    .skillsWrapper, .homeWrapper, .projectsSectionWrapper, .contactWrapper, .footerInner {
+        margin: 0 auto;
+        text-align:center;
+    }
+}
+
+.app {
+    width: 100%;
 }
 
 section h2 {
@@ -21,22 +34,51 @@ section h2 {
     background-position: center;
 }
 
-.logo {
-    width:300px;
-    padding-top:40px;
+@media (min-width: 710px) {
+    .logo {
+        width: 300px;
+        padding-top: 40px;
+    }
 }
 
-.navigation {
-    float:right;
-    padding-top:60px;
-    margin-right:10px;
+@media (max-width: 710px) {
+    .logo {
+        width: 300px;
+        padding-top: 40px;
+        margin: 0 auto;
+        display: block;
+    }
 }
 
-.navigation a {
-    padding:12px;
-    color:black;
-    font-size:24px;
-    text-decoration:none;
+@media (min-width: 710px) {
+    .navigation {
+        float: right;
+        padding-top: 60px;
+        margin-right: 10px;
+    }
+
+    .navigation a {
+        padding: 12px;
+        color: black;
+        font-size: 24px;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 710px) {
+    .navigation {
+        padding-top: 20px;
+        margin-right: 10px;
+        margin: 0 auto;
+        width: 340px;
+    }
+
+    .navigation a {
+        padding: 12px;
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+    }
 }
 
 .introduction {
@@ -59,10 +101,19 @@ section h2 {
 
 
 /* SKILLS SECTION */
-.skillSector {
-    display: inline-block;
-    margin-right: 25px;
-    margin-bottom: 25px;
+@media (min-width: 710px) {
+    .skillSector {
+        display: inline-block;
+        margin-right: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 710px) {
+    .skillSector {
+        display: inline-block;
+        margin-bottom: 25px;
+    }
 }
 
 .skillSector h4 {
@@ -86,19 +137,42 @@ section h2 {
 
 /* PROJECT SECTION */
 
-.projectsWrapper {
-    display: flex;
-    justify-content: space-evenly;
+@media (min-width: 710px) {
+    .projectsWrapper {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+@media (max-width: 710px) {
+    .project:nth-of-type(2) {
+        margin-top: 30px;
+    }
 }
 
-.project {
-    width: 300px;
-    display:inline-block;
+@media (min-width: 710px) {
+    .project {
+        width: 300px;
+        display: inline-block;
+    }
+    .project img {
+        width: 300px;
+        max-height: 500px;
+    }
 }
-.project img {
-    width: 300px;
-    max-height:500px;
+
+@media (max-width: 710px) {
+    .project {
+    }
+    .project img {
+        width: 300px;
+        max-height: 500px;
+    }
 }
+
+.project b {
+    font-size: 18px;
+}
+
 .smallProjects {
     margin-top:60px;
 }

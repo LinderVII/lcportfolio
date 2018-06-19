@@ -9,7 +9,7 @@ class Projects extends Component {
                 <div className="projectsWrapper">
                     <div className="project">
                         <a href="/epsilon">
-                            <img src="/epsilon.png" alt="Epsilon C" />
+                            <img src="/epsilon.png" alt="Epsilon C" /><br />
                             <b>Epsilon C</b><br />
                             120~ downloads<br />
                             App, made using Cordova<br />
@@ -18,11 +18,11 @@ class Projects extends Component {
                     </div>
                     <div className="project">
                         <a href="/memeories">
-                            <img src="/memeories.png" alt="Memeories" />
+                            <img src="/memeories.png" alt="Memeories" /><br />
                             <b>Memeories</b><br />
                             WIP<br />
                             Website, made using React<br />
-                            Drag-and-drop images for cloud storage, then click on the image to get a direct link.
+                            Drag-and-drop images for cloud storage, then click on the image to get a direct link. Live Demo dosen't render properly on mobile devices.
                         </a>
                     </div>
                 </div>
