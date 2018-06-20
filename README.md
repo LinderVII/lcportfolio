@@ -32,4 +32,4 @@ Can serve the static index.html file from build since it is a react app.
 
 ## License
 
-No license, go wild
+This project is licensed under the terms of the MIT license
